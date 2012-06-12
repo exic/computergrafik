@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+\begin{document}
+\section{Problem 4}
+
+\paragraph{Gegebenen}
+\begin{itemize}
+    \item{Armlänge: $4.5 m$}
+    \item{Rad-Radius: $1.2 m$}
+    \item{Winkelgeschwindigkeit: $\omega = 2 \pi / 60s$}
+\end{itemize}
+
+\paragraph{Vorweg}
+Radumfang: $2 \pi r = 2 \cdot \pi \cdot 1.2m \approx 7.5m $
+
+Umfang einer Rundfahrt: $ 2 \cdot \pi \cdot 4.5m \approx 28.3m $
+
+\paragraph{Drehungen}
+
+Es erfolgt eine Drehung um den Mittelpunkt des Göpelarms, die als Rotation um die Y-Achse beschrieben werden kann:
+\[
+    \begin{pmatrix}
+        \cos{\omega} & 0 & \sin{\omega} & 0 \\
+                   0 & 1 & 0 & 0 \\
+       -\sin{\omega} & 0 & \cos{\omega} & 0 \\
+                   0 & 0 & 0 & 1
+    \end{pmatrix}
+\]
+
+\end{document}
